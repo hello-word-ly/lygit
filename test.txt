@@ -2,3 +2,7 @@
 22222
 33333
 46666
+77777
+select `oysd_action_malls`.`id`, `action_title`, `package` from `oysd_actions` left join `oysd_action_malls` on `oysd_action_malls`.`action_id` = `oysd_actions`.`id` where (`is_del` = ? and `is_publish` = ? and `end_date` > ?) and (`action_mall` = ? or `oysd_action_malls`.`mall_code` = ?)"
+select `oysd_action_malls`.`id`, `action_title`, `package` from `oysd_actions` left join `oysd_action_malls` on `oysd_action_malls`.`action_id` = `oysd_actions`.`id` where (`is_del` = ? and `is_publish` = ? and `end_date` > ?) and (`action_mall` = ?)
+ฐกฐกฐกรÜรÜย้ย้ย่ย่ย๐
